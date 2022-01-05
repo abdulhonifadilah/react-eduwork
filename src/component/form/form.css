@@ -1,0 +1,46 @@
+.form-registrasi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form-registrasi h5 {
+  text-decoration: underline;
+}
+
+.form-registrasi .err-message {
+  color: salmon;
+  font-weight: 500;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.form-registrasi form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 300px;
+  margin: 20px auto;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.form-registrasi form button {
+  margin-top: 10px;
+}
+/*# sourceMappingURL=form.css.map */

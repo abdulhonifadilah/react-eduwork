@@ -1,4 +1,5 @@
 import Alamat from "./component/Alamat";
+import Form from "./component/form";
 import Nama from "./component/Nama";
 
 function App() {
@@ -6,6 +7,8 @@ function App() {
     <div className="App">
       <Nama nama="masukan nama"/>
       <Alamat nama="alamat"/>
+      <hr/>
+      <Form/>
     </div>
   );
 }
